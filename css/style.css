@@ -1,0 +1,188 @@
+/* wcoding lavender color */
+/* #8658C8 */
+
+* {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: #ffffff;
+   background-color: rgb(10, 10, 24);
+   margin: 0;
+}
+
+img {
+   max-width: 100%;
+}
+
+.container {
+   height: 100vh;
+   padding: 2em;
+}
+
+.logo {
+   max-width: 100px;
+   margin: 0 auto;
+}
+
+.title {
+   font-size: 2.25em;
+   text-align: center;
+   margin: 0 0 .5em;
+}
+
+.card-container {
+   max-width: 350px;
+   margin: 0 auto;
+}
+
+.card {
+   margin: 1.25em 0;
+   padding: 2.25em 2em;
+   border-radius: 10px;
+}
+
+.top__card {
+   background-color: #8557c7;
+}
+
+.top__card span {
+   display: block;
+   font-size: 3em;
+   font-weight: 700;
+   margin: -15px 0 5px;
+}
+
+.numbers_text.current {
+   color: #fff;
+}
+
+.numbers_text {
+   font-size: 1em;
+   font-weight: 600;
+   text-transform: uppercase;
+   color: #b5b3b3;
+   margin: 0;
+}
+
+.middle__card {
+   border: 2px solid rgb(67, 67, 67);
+}
+
+.middle__card-top {
+   margin-bottom: 2em;
+}
+
+.middle__card-content {
+   display: flex;
+   align-items: center;
+   gap: 1em;
+}
+
+.icon {
+   width: 30px;
+}
+
+.numbers {
+   font-size: 2em;
+   font-weight: 600;
+}
+
+.bottom__card {
+   padding: 0;
+}
+
+.btn {
+   width: 100%;
+   font-size: 1em;
+   font-weight: 600;
+   color: #ffffff;
+   background-color: #8557c7;
+   padding: .75em;
+   border: none;
+   border-radius: 10px;
+}
+
+.warning {
+   width: 270px;
+   text-align: center;
+   color: #797777;
+   margin: 1em auto;
+}
+
+.warning span {
+   color: #b4b2b2;
+}
+
+@media screen and (min-width: 820px) {
+
+   .container {
+      padding: 5em;
+   }
+
+   .logo {
+      max-width: 150px;
+   }
+
+   .title {
+      font-size: 3em;
+      text-align: center;
+      margin: 0 0 .5em;
+   }
+
+   .card-container {
+      max-width: 800px;
+   }
+
+   .card_info {
+      display: flex;
+      gap: 2em;
+   }
+
+   .top__card {
+      flex-grow: 1;
+   }
+
+   .middle__card {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-grow: 2;
+      gap: 2em;
+   }
+
+   .middle__card-top {
+      margin-bottom: 0;
+   }
+}
+
+@media screen and (min-width: 1200px) {
+   .container {
+      padding: 10em;
+   }
+
+   .logo {
+      max-width: 200px;
+   }
+
+   .title {
+      font-size: 4em;
+   }
+
+   .card-container {
+      max-width: 1440px;
+      display: flex;
+      justify-content: center;
+      gap: 2em;
+      margin-top: 5em;
+   }
+
+   .middle__card {
+      gap: 5em;
+   }
+
+   .warning {
+      text-align: left;
+   }
+}
